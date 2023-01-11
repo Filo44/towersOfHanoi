@@ -1,0 +1,27 @@
+body{
+     margin:0px;
+}
+#root{
+     display:flex;
+     align-items: center;
+     justify-content: space-evenly;
+     height:100vh;
+}
+.tower{
+     width:300px;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+}
+.stick{
+     background:black;
+     height:300px;
+     width:10px;
+}
+.disk{
+     margin-bottom: 60px;
+     height: 30px;
+}
+.selected{
+     background: red;
+}
